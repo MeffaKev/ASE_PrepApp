@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000012345678900000001 /* ASE_PrepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000012345678900000001 /* ASE_PrepApp.swift */; };
+		A10000022345678900000001 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000022345678900000001 /* Question.swift */; };
+		A10000032345678900000001 /* StudyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000032345678900000001 /* StudyStore.swift */; };
+		A10000042345678900000001 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000042345678900000001 /* MainTabView.swift */; };
+		A10000052345678900000001 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000052345678900000001 /* DashboardView.swift */; };
+		A10000062345678900000001 /* QuizSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000062345678900000001 /* QuizSessionView.swift */; };
+		A10000072345678900000001 /* ExamResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000072345678900000001 /* ExamResultsView.swift */; };
+		A10000082345678900000001 /* QuestionBankBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000082345678900000001 /* QuestionBankBrowserView.swift */; };
+		A10000092345678900000001 /* StudyReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000092345678900000001 /* StudyReferenceView.swift */; };
+		A100000A2345678900000001 /* ExamHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000A2345678900000001 /* ExamHistoryView.swift */; };
+		A100000B2345678900000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A200000B2345678900000001 /* Assets.xcassets */; };
+		A100000C2345678900000001 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = A200000C2345678900000001 /* questions.json */; };
+		A100000D2345678900000001 /* TestPrepGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000D2345678900000001 /* TestPrepGuideView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000012345678900000001 /* ASE_Prep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASE_Prep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000012345678900000001 /* ASE_PrepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASE_PrepApp.swift; sourceTree = "<group>"; };
+		A20000022345678900000001 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A20000032345678900000001 /* StudyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyStore.swift; sourceTree = "<group>"; };
+		A20000042345678900000001 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A20000052345678900000001 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A20000062345678900000001 /* QuizSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionView.swift; sourceTree = "<group>"; };
+		A20000072345678900000001 /* ExamResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamResultsView.swift; sourceTree = "<group>"; };
+		A20000082345678900000001 /* QuestionBankBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBankBrowserView.swift; sourceTree = "<group>"; };
+		A20000092345678900000001 /* StudyReferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyReferenceView.swift; sourceTree = "<group>"; };
+		A200000A2345678900000001 /* ExamHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamHistoryView.swift; sourceTree = "<group>"; };
+		A200000B2345678900000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A200000C2345678900000001 /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		A200000D2345678900000001 /* TestPrepGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPrepGuideView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000012345678900000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000012345678900000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000022345678900000001 /* ASE_Prep */,
+				A40000072345678900000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000022345678900000001 /* ASE_Prep */ = {
+			isa = PBXGroup;
+			children = (
+				A20000012345678900000001 /* ASE_PrepApp.swift */,
+				A40000032345678900000001 /* Models */,
+				A40000042345678900000001 /* ViewModels */,
+				A40000052345678900000001 /* Views */,
+				A40000062345678900000001 /* Resources */,
+				A200000B2345678900000001 /* Assets.xcassets */,
+			);
+			path = ASE_Prep;
+			sourceTree = "<group>";
+		};
+		A40000032345678900000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000022345678900000001 /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A40000042345678900000001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A20000032345678900000001 /* StudyStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A40000052345678900000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000042345678900000001 /* MainTabView.swift */,
+				A20000052345678900000001 /* DashboardView.swift */,
+				A20000062345678900000001 /* QuizSessionView.swift */,
+				A20000072345678900000001 /* ExamResultsView.swift */,
+				A20000082345678900000001 /* QuestionBankBrowserView.swift */,
+				A20000092345678900000001 /* StudyReferenceView.swift */,
+				A200000A2345678900000001 /* ExamHistoryView.swift */,
+				A200000D2345678900000001 /* TestPrepGuideView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A40000062345678900000001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A200000C2345678900000001 /* questions.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A40000072345678900000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000012345678900000001 /* ASE_Prep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000012345678900000001 /* ASE_Prep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000022345678900000001 /* Build configuration list for PBXNativeTarget "ASE_Prep" */;
+			buildPhases = (
+				A60000012345678900000001 /* Sources */,
+				A30000012345678900000001 /* Frameworks */,
+				A70000012345678900000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASE_Prep;
+			productName = ASE_Prep;
+			productReference = A00000012345678900000001 /* ASE_Prep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000012345678900000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2720;
+				ORGANIZATIONNAME = "Treanor Corp";
+				TargetAttributes = {
+					A50000012345678900000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A80000012345678900000001 /* Build configuration list for PBXProject "ASE_Prep" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000012345678900000001;
+			productRefGroup = A40000072345678900000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000012345678900000001 /* ASE_Prep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000012345678900000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000B2345678900000001 /* Assets.xcassets in Resources */,
+				A100000C2345678900000001 /* questions.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60000012345678900000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000012345678900000001 /* ASE_PrepApp.swift in Sources */,
+				A10000022345678900000001 /* Question.swift in Sources */,
+				A10000032345678900000001 /* StudyStore.swift in Sources */,
+				A10000042345678900000001 /* MainTabView.swift in Sources */,
+				A10000052345678900000001 /* DashboardView.swift in Sources */,
+				A10000062345678900000001 /* QuizSessionView.swift in Sources */,
+				A10000072345678900000001 /* ExamResultsView.swift in Sources */,
+				A10000082345678900000001 /* QuestionBankBrowserView.swift in Sources */,
+				A10000092345678900000001 /* StudyReferenceView.swift in Sources */,
+				A100000A2345678900000001 /* ExamHistoryView.swift in Sources */,
+				A100000D2345678900000001 /* TestPrepGuideView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000032345678900000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A80000042345678900000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80000052345678900000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ASE Prep";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Treanor Corp. All rights reserved.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.treanorcorp.ASEPrep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A80000062345678900000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ASE Prep";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Treanor Corp. All rights reserved.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.treanorcorp.ASEPrep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000012345678900000001 /* Build configuration list for PBXProject "ASE_Prep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000032345678900000001 /* Debug */,
+				A80000042345678900000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000022345678900000001 /* Build configuration list for PBXNativeTarget "ASE_Prep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000052345678900000001 /* Debug */,
+				A80000062345678900000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000012345678900000001 /* Project object */;
+}
